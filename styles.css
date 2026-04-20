@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+footer
+{	
+	background-color:#ccc;
+	text-align:center;
+	padding:10px;
+}
+.container
+{
+	margin: 0px 200px;
+	padding : 12px 10px;
+}
+
+.form-card
+{
+	width: 400px;
+	margin:auto;
+	border: 1px solid #ddd;
+	padding : 30px;	
+}
+
+.form-card h2
+{
+	text-align:center;
+	margin-bottom:20px;
+}
+.form-card input
+{
+	display:block;
+	width:100%;
+	font-size:12px;
+	padding:10px;
+}
+
+.form-card textarea
+{
+	display:block;
+	width:100%;
+	font-size:12px;
+	padding:10px;
+}
+
+.add-btn
+{
+	background-color:white;
+	color:black !important;
+	border-radius:4px;
+	margin-left:6px;
+		
+}
+.conf-card
+{
+	width:800px;
+	margin : 4px auto;
+	padding : 20px;
+	border:0.5px solid #ccc;	
+}
+
+.conf-card label
+{
+	font-size : 12px;
+	color : #aaa;
+}
+.container-flex
+{
+	display:flex;
+	align-items:start;
+	gap:40px;
+}
+.profile-left
+{
+	width:300px;
+	padding:4px;
+	/*border:1px solid black;*/
+}
+
+.btn-group
+{
+	margin-top:6px;
+}
+
+.btn
+{
+	display:inline-block;
+	text-decoration:none;
+	color:black;
+	font-size:14px;
+	padding:6px 10px;
+	margin:2px;
+	border-radius : 4px;
+}
+
+.btn-edit
+{
+	background-color:orange;
+}
+.btn-delete
+{
+	background-color:red;
+	color:white;
+}
