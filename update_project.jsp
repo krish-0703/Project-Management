@@ -22,7 +22,7 @@ catch(Exception e)
 %>
 <div class="container">
 	<div  class ="form-card">
-		<h2> Update your Confession</h2>
+		<h2> Update your Project</h2>
 
 		<form action = "update_project.jsp" method="post">
 			<input type="hidden" name = "id" value="<%=rs.getInt("id") %>">
